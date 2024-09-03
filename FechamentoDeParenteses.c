@@ -48,7 +48,10 @@ int main()
     } while (caract != '\n');
 
     if (Seq -> TOPO != NULL)
+    {
+    	Liberar(Seq)
         return 0;
+    }
 
     Liberar(Seq);
     return 1;
