@@ -16,7 +16,7 @@ int main()
     do
     {
         int i;
-  
+
         scanf("%c", &caract);
 
         for (i = 0; i < 3; i++)
@@ -49,7 +49,7 @@ int main()
 
     if (Seq -> TOPO != NULL)
     {
-    	Liberar(Seq)
+    	Liberar(Seq);
         return 0;
     }
 
