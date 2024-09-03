@@ -6,7 +6,6 @@ int main()
     char abrir[] = {'(', '[', '{'};
     char fechar[] = {')', ']', '}'};
     char caract;
-    int valor;
     STACK* Seq;
     Seq = Inicializar(Seq);
 
@@ -17,7 +16,7 @@ int main()
     do
     {
         int i;
-        int valor = 8;
+  
         scanf("%c", &caract);
 
         for (i = 0; i < 3; i++)
